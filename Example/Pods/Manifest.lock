@@ -1,0 +1,16 @@
+PODS:
+  - icu4c-test (0.1.0)
+
+DEPENDENCIES:
+  - icu4c-test (from `../`)
+
+EXTERNAL SOURCES:
+  icu4c-test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  icu4c-test: 1efdb18b297758b7e0ab2880d9110cc59d8e0fcd
+
+PODFILE CHECKSUM: 641adbe902d67a514176366fdb32f74ae6ff2054
+
+COCOAPODS: 1.10.1

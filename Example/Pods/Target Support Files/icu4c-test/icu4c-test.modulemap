@@ -1,0 +1,6 @@
+framework module icu4c_test {
+  umbrella header "icu4c-test-umbrella.h"
+
+  export *
+  module * { export * }
+}
