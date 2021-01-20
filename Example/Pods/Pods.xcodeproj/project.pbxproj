@@ -6,81 +6,294 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF1B6D8B6316E2ED9C0D5A84C0CD0AAB /* Build configuration list for PBXAggregateTarget "icu4c-iosx" */;
+			buildPhases = (
+				DC0D92D8BA9284C20E59E4A365F19199 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "icu4c-iosx";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		16B1A64C3795AAF34B56FB85AEC03D91 /* Pods-icu4c-test_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910C839236989001F7A3CA1BE99EA320 /* Pods-icu4c-test_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4335393DE5980A166EC0F4618B40CF67 /* icu4c-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FF3A157597E1C5DFD87DC2465FC61 /* icu4c-test-dummy.m */; };
-		51B84F01E2CFEFD281EDAC4D27BA9614 /* icu4c-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A807AFB75D49FD58D0D13634608DEB /* icu4c-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E717303CE0E0AB23B05D1B859A26DC7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFFE979801223F656DE8E71C5E6E5D /* ReplaceMe.swift */; };
-		62F59509C6D057A762E633B2330BBA59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		884C63EFE79839395B4A79EB7ACCF0DF /* Pods-icu4c-test_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6287F03C881B95596DEF9F82EE9EAD7E /* Pods-icu4c-test_Example-dummy.m */; };
+		00519390D9DD4842859425CDA7BB0975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		11E4CA8636C90CFD96EF6C47661F5098 /* icu4c-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FF3A157597E1C5DFD87DC2465FC61 /* icu4c-test-dummy.m */; };
+		553E0A9CB52B6F4C5BF19092630BF0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69971034A1A93598E5F8EC07ECAA062B /* icu4c-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A807AFB75D49FD58D0D13634608DEB /* icu4c-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACC4D9EE648DCD253CC590DA7CEF3E7 /* Pods-icu4c-test_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 729DD516439790E063036490F772B219 /* Pods-icu4c-test_Example-dummy.m */; };
 		8E0DD5C56C432DAF7F6F09ED32054332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8FB494FB33D3BBCCB3587379D0B929BD /* Pods-icu4c-test_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD77101EC2DB4E57695F668E0A6E1D2 /* Pods-icu4c-test_Tests-dummy.m */; };
-		BB8F47A3C6C287F5757F276C40FAFA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F33908AB3A44FA669D96574C0BA6A92D /* Pods-icu4c-test_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDD7ADA961CD12FB5593475E248CB46 /* Pods-icu4c-test_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB494FB33D3BBCCB3587379D0B929BD /* Pods-icu4c-test_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF34AC0AFE36B7B261A7BEC8477117D /* Pods-icu4c-test_Tests-dummy.m */; };
+		B790BD3BD11F17FE1B374046F91F42AC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFFE979801223F656DE8E71C5E6E5D /* ReplaceMe.swift */; };
+		F33908AB3A44FA669D96574C0BA6A92D /* Pods-icu4c-test_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125C95D99B3AA4F78E140453C50FD9FF /* Pods-icu4c-test_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EBDECBA6428165910CB04A5F58B86B /* Pods-icu4c-test_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D24974EB0FE1EEA45DA971532AE1048 /* Pods-icu4c-test_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8C8DF77845C4C6D9FE9818D7E41241A1 /* PBXContainerItemProxy */ = {
+		171390C515A37F4283E4CEDC326392B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7804ABC9BFA0999D4A7EC88DC1133FA0;
 			remoteInfo = "icu4c-test";
 		};
-		977D612A904A4F3CB377EDFDE412DC9C /* PBXContainerItemProxy */ = {
+		3373959A510EDEB7846DC6A8DADC1842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631BC9FB937E99AFD50097747A9F5163;
+			remoteInfo = "icu4c-iosx";
+		};
+		6A546DFD1FBEF907FC37FFB82B29C5CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A1B83669262D71A188759EBF741176C3;
 			remoteInfo = "Pods-icu4c-test_Example";
 		};
+		C7960809F6658476024E243A522D3D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631BC9FB937E99AFD50097747A9F5163;
+			remoteInfo = "icu4c-iosx";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00ABA58229EC2CB28D43AC9E4F3BCCA7 /* Pods-icu4c-test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		01661A23A5FA80781705D905C84B4FFD /* icudataver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icudataver.h; path = product/include/unicode/icudataver.h; sourceTree = "<group>"; };
+		0186010619BF9A6C3C3A684ECB694DEF /* currunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = currunit.h; path = product/include/unicode/currunit.h; sourceTree = "<group>"; };
 		029A87397CD1818C61D6B74D8D5570BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		030767E0E54FB769C7D907C191505566 /* Pods_icu4c_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_icu4c_test_Tests.framework; path = "Pods-icu4c-test_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D05EBB52876D56A9F76C11B23C2C17 /* translit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = translit.h; path = product/include/unicode/translit.h; sourceTree = "<group>"; };
 		053FAA9F2641C10C9B5AE4B885EF1683 /* icu4c-test-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "icu4c-test-prefix.pch"; sourceTree = "<group>"; };
 		05A807AFB75D49FD58D0D13634608DEB /* icu4c-test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "icu4c-test-umbrella.h"; sourceTree = "<group>"; };
-		1BDD7ADA961CD12FB5593475E248CB46 /* Pods-icu4c-test_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-icu4c-test_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05F0B20953BA1E92F2A86F98A8F54EE3 /* unorm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unorm.h; path = product/include/unicode/unorm.h; sourceTree = "<group>"; };
+		0959EDFD636D85E87376956C42FAE233 /* ufieldpositer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ufieldpositer.h; path = product/include/unicode/ufieldpositer.h; sourceTree = "<group>"; };
+		0B663FFD4666BADF6E5C83537DDD681E /* ucnvsel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnvsel.h; path = product/include/unicode/ucnvsel.h; sourceTree = "<group>"; };
+		0B96F0371D2C684650054596E8C60D69 /* decimfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimfmt.h; path = product/include/unicode/decimfmt.h; sourceTree = "<group>"; };
+		0F64636A47B7EB1FDF82F4E9F5896F45 /* uiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uiter.h; path = product/include/unicode/uiter.h; sourceTree = "<group>"; };
+		10F85BFC2882538491EC066909ADA839 /* umisc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umisc.h; path = product/include/unicode/umisc.h; sourceTree = "<group>"; };
+		125C95D99B3AA4F78E140453C50FD9FF /* Pods-icu4c-test_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-icu4c-test_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1276E44E4B3E1673FB872D6B6AEF342B /* vtzone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vtzone.h; path = product/include/unicode/vtzone.h; sourceTree = "<group>"; };
+		13B2430CE7791F01E0FCFF1D676F938E /* measunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measunit.h; path = product/include/unicode/measunit.h; sourceTree = "<group>"; };
+		148D710EDF67D95B706481EADBFA47AF /* uconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uconfig.h; path = product/include/unicode/uconfig.h; sourceTree = "<group>"; };
+		17820A3F6714902C3CA246FAEB723309 /* dtrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtrule.h; path = product/include/unicode/dtrule.h; sourceTree = "<group>"; };
+		17B735674377079659D0BB74170CA154 /* ustream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustream.h; path = product/include/unicode/ustream.h; sourceTree = "<group>"; };
+		1A20F7C55E7E0A5BBA1F8FFE1526A77B /* uchriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uchriter.h; path = product/include/unicode/uchriter.h; sourceTree = "<group>"; };
+		1B60A32D2A6F3C35DD6927ABAD639557 /* bytestream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestream.h; path = product/include/unicode/bytestream.h; sourceTree = "<group>"; };
+		1BE31881F6ECFA0CF738CC185E171081 /* uchar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uchar.h; path = product/include/unicode/uchar.h; sourceTree = "<group>"; };
+		1C1CF8EE21767A00D6C2F5F5ABDA1D36 /* uformattedvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uformattedvalue.h; path = product/include/unicode/uformattedvalue.h; sourceTree = "<group>"; };
+		1D24974EB0FE1EEA45DA971532AE1048 /* Pods-icu4c-test_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-icu4c-test_Example-umbrella.h"; sourceTree = "<group>"; };
+		21318A1AB23D453EA459E5534928E7BF /* udata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udata.h; path = product/include/unicode/udata.h; sourceTree = "<group>"; };
+		225D154D79BCE4310124CFFB14912D34 /* ucharstriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucharstriebuilder.h; path = product/include/unicode/ucharstriebuilder.h; sourceTree = "<group>"; };
+		23B6DEE023BAF79AA7B76620906B73A7 /* coll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coll.h; path = product/include/unicode/coll.h; sourceTree = "<group>"; };
+		24D6D1A2564447A5E7734786452D9FD6 /* ureldatefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ureldatefmt.h; path = product/include/unicode/ureldatefmt.h; sourceTree = "<group>"; };
+		25E70963FE40BCA3168DFE4730400797 /* messagepattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messagepattern.h; path = product/include/unicode/messagepattern.h; sourceTree = "<group>"; };
+		2630B929FFAAA125E5C71256F4494259 /* rbtz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtz.h; path = product/include/unicode/rbtz.h; sourceTree = "<group>"; };
 		2BF092666CE4984595E162A730BE43DF /* icu4c_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = icu4c_test.framework; path = "icu4c-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A2E1071FFBED720844F3DC1F63880D /* Pods-icu4c-test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD1944077908B6D911AD0C995EF91E4 /* measure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measure.h; path = product/include/unicode/measure.h; sourceTree = "<group>"; };
+		2D98BFE4F105BBBE90A9FE612A11F68C /* ustringtrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustringtrie.h; path = product/include/unicode/ustringtrie.h; sourceTree = "<group>"; };
+		2E3A2B0B05B50EA1CFB22829F9995761 /* Pods-icu4c-test_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E74D92641DA999255247BE691DDEA2B /* simpleformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simpleformatter.h; path = product/include/unicode/simpleformatter.h; sourceTree = "<group>"; };
+		2EBCB41E6355B42889FD35670E618C1D /* bytestrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestrie.h; path = product/include/unicode/bytestrie.h; sourceTree = "<group>"; };
+		3042AF33BA6278DEAA2592F17E9D97EB /* normlzr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normlzr.h; path = product/include/unicode/normlzr.h; sourceTree = "<group>"; };
+		30881C9C4A806D797767DF9BFF00EEFE /* uformattable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uformattable.h; path = product/include/unicode/uformattable.h; sourceTree = "<group>"; };
+		32AA742A42416EDF6A9B2A754B159376 /* uldnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uldnames.h; path = product/include/unicode/uldnames.h; sourceTree = "<group>"; };
+		337EB5BCD4814CAFDBF3508B501CFE7C /* formattedvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = formattedvalue.h; path = product/include/unicode/formattedvalue.h; sourceTree = "<group>"; };
+		344FCCD5B5AA8B17324D88265A7D39C3 /* unistr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unistr.h; path = product/include/unicode/unistr.h; sourceTree = "<group>"; };
+		355454204B76417304B7B079901A89E6 /* ubrk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubrk.h; path = product/include/unicode/ubrk.h; sourceTree = "<group>"; };
+		3564A0B0C7A1A41A9F381DB16042D8A1 /* parseerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseerr.h; path = product/include/unicode/parseerr.h; sourceTree = "<group>"; };
+		38A5B7FA5F0C03FDE8880580CAAFDE02 /* Pods-icu4c-test_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-icu4c-test_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39C50761CA4DE0EB2A73CD25C024BA25 /* ucharstrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucharstrie.h; path = product/include/unicode/ucharstrie.h; sourceTree = "<group>"; };
+		39F53FB1FA5654280BCA7E8948BA8A87 /* region.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = region.h; path = product/include/unicode/region.h; sourceTree = "<group>"; };
 		3B7FF3A157597E1C5DFD87DC2465FC61 /* icu4c-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "icu4c-test-dummy.m"; sourceTree = "<group>"; };
+		3D05B20CCA141AB7295C10ADEFE8D602 /* gender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gender.h; path = product/include/unicode/gender.h; sourceTree = "<group>"; };
+		3D4B028DC779ECFA10DEB50914B8F739 /* ulocdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulocdata.h; path = product/include/unicode/ulocdata.h; sourceTree = "<group>"; };
+		3D850D5B0EDDD31927469B45FF65C302 /* parsepos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parsepos.h; path = product/include/unicode/parsepos.h; sourceTree = "<group>"; };
+		3E22059DE1624876A85F666618D6FBCB /* dtfmtsym.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtfmtsym.h; path = product/include/unicode/dtfmtsym.h; sourceTree = "<group>"; };
+		3E8789B2E754CD8102B757B2964DF8DE /* ucat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucat.h; path = product/include/unicode/ucat.h; sourceTree = "<group>"; };
+		3F4D95FC9336347EC2303F4E940AD69E /* icuplug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icuplug.h; path = product/include/unicode/icuplug.h; sourceTree = "<group>"; };
+		3F7F717431F726FA67CE30F0BD16ECDB /* unifunct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unifunct.h; path = product/include/unicode/unifunct.h; sourceTree = "<group>"; };
+		40C7FBFCF778F5C4842812713F5893AB /* tmutfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmutfmt.h; path = product/include/unicode/tmutfmt.h; sourceTree = "<group>"; };
+		449F92A872D87AC486FA0BDB5DF3A621 /* localebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localebuilder.h; path = product/include/unicode/localebuilder.h; sourceTree = "<group>"; };
+		44CA5452A547223EF78634FD62ADD91B /* rbbi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbbi.h; path = product/include/unicode/rbbi.h; sourceTree = "<group>"; };
+		47DCC018E2EEF2340F72E868757E162B /* strenum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strenum.h; path = product/include/unicode/strenum.h; sourceTree = "<group>"; };
+		47E6CC985EC8BC79E523FE0385E799B4 /* ustdio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustdio.h; path = product/include/unicode/ustdio.h; sourceTree = "<group>"; };
 		488E65323BAC25A46FC0A9E588F1F664 /* icu4c-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-test.debug.xcconfig"; sourceTree = "<group>"; };
-		4A97B36ABBBEE212F4328471901096AD /* Pods-icu4c-test_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Example-Info.plist"; sourceTree = "<group>"; };
-		531602E1A0BE481275B5B074BE57E89E /* Pods-icu4c-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53B22B6F1650D3A2B29993BE0BAA36E7 /* Pods-icu4c-test_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-icu4c-test_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DD77101EC2DB4E57695F668E0A6E1D2 /* Pods-icu4c-test_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-icu4c-test_Tests-dummy.m"; sourceTree = "<group>"; };
-		6287F03C881B95596DEF9F82EE9EAD7E /* Pods-icu4c-test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-icu4c-test_Example-dummy.m"; sourceTree = "<group>"; };
+		48E4AFBC2B31E0527D9EBEECB4F9F548 /* ugender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ugender.h; path = product/include/unicode/ugender.h; sourceTree = "<group>"; };
+		49D0A4FD631ABAED6F92967C6DE66263 /* scientificnumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scientificnumberformatter.h; path = product/include/unicode/scientificnumberformatter.h; sourceTree = "<group>"; };
+		4A3A327ED11A61E5183BDA4C6E8FAD17 /* unumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumberformatter.h; path = product/include/unicode/unumberformatter.h; sourceTree = "<group>"; };
+		4AB72E92D70EF69EBC41426B1C9CAC7B /* utext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utext.h; path = product/include/unicode/utext.h; sourceTree = "<group>"; };
+		4B53E4C17437CA2C84E7B06F701D6D42 /* localpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localpointer.h; path = product/include/unicode/localpointer.h; sourceTree = "<group>"; };
+		4C66C0CAB76F4D1E207A32057902C52F /* stringpiece.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringpiece.h; path = product/include/unicode/stringpiece.h; sourceTree = "<group>"; };
+		528DADBC9340EE4A6136A794AACABA41 /* icuio.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icuio.xcframework; path = product/frameworks/icuio.xcframework; sourceTree = "<group>"; };
+		53745FA08903AA0CFE5424C10953B937 /* utf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf.h; path = product/include/unicode/utf.h; sourceTree = "<group>"; };
+		54761352F132F7E292F6A7428D69D608 /* docmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docmain.h; path = product/include/unicode/docmain.h; sourceTree = "<group>"; };
+		551591A8CCA0D0C8466D0EA4119B95D7 /* errorcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errorcode.h; path = product/include/unicode/errorcode.h; sourceTree = "<group>"; };
+		56EC2846980BB699F3A029A45C644884 /* choicfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = choicfmt.h; path = product/include/unicode/choicfmt.h; sourceTree = "<group>"; };
+		57E1168AEFDB5B4DF0CA961CDDD20CE9 /* msgfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msgfmt.h; path = product/include/unicode/msgfmt.h; sourceTree = "<group>"; };
+		5A674056DA59E1D4E818632551FE75F0 /* unifilt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unifilt.h; path = product/include/unicode/unifilt.h; sourceTree = "<group>"; };
+		5B0E8901DAB11C8CBA19C936EDAC897D /* measfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measfmt.h; path = product/include/unicode/measfmt.h; sourceTree = "<group>"; };
+		5C9318E95C5983A5CFC959CEA1F5B2FE /* icudata.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icudata.xcframework; path = product/frameworks/icudata.xcframework; sourceTree = "<group>"; };
+		5DAD19503D9ACCFD6C16A75FC0347FEE /* unirepl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unirepl.h; path = product/include/unicode/unirepl.h; sourceTree = "<group>"; };
+		5DFC8523A7998FB247D47FC49DC2A80A /* tztrans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tztrans.h; path = product/include/unicode/tztrans.h; sourceTree = "<group>"; };
+		5E5D115A8379CEDE7869D87E0DAA663B /* idna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idna.h; path = product/include/unicode/idna.h; sourceTree = "<group>"; };
+		5F9C63EE5FA10DA68A5E9D9B846FCE49 /* ucurr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucurr.h; path = product/include/unicode/ucurr.h; sourceTree = "<group>"; };
+		603B2AD2982AFD88A33182FF459B2D22 /* rbnf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbnf.h; path = product/include/unicode/rbnf.h; sourceTree = "<group>"; };
+		609072B96FD15890811AFB65EE71C5E2 /* ubidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubidi.h; path = product/include/unicode/ubidi.h; sourceTree = "<group>"; };
+		610D6F9526F8E92B37C443D6540D86AB /* ures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ures.h; path = product/include/unicode/ures.h; sourceTree = "<group>"; };
+		62D938E6FE1E2131D3350A268D7B45F7 /* tmunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmunit.h; path = product/include/unicode/tmunit.h; sourceTree = "<group>"; };
+		6556D36CD38DC804FF98A2B1E8545E3C /* numsys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numsys.h; path = product/include/unicode/numsys.h; sourceTree = "<group>"; };
+		6566522B4780D2169C0B5C4051D7BA5E /* ucsdet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucsdet.h; path = product/include/unicode/ucsdet.h; sourceTree = "<group>"; };
+		67D452454812F4F52F040C4D8A9AD44B /* ucol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucol.h; path = product/include/unicode/ucol.h; sourceTree = "<group>"; };
+		6A481D25A561CC5D4B7C038B7E23B84D /* putil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = putil.h; path = product/include/unicode/putil.h; sourceTree = "<group>"; };
+		6CF4501416B18869EF6D3EAB2774AC1D /* normalizer2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normalizer2.h; path = product/include/unicode/normalizer2.h; sourceTree = "<group>"; };
+		6D927419C6A1B1412BE819D1480B62AE /* utf_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf_old.h; path = product/include/unicode/utf_old.h; sourceTree = "<group>"; };
+		6DED39236B2910E4765CAFA49C1350D1 /* utmscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utmscale.h; path = product/include/unicode/utmscale.h; sourceTree = "<group>"; };
+		70E3CA626A92D9FAD34F4A0075353B8A /* basictz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basictz.h; path = product/include/unicode/basictz.h; sourceTree = "<group>"; };
+		728C2EB222CBF36EFF96BEA3B895CDFD /* numfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numfmt.h; path = product/include/unicode/numfmt.h; sourceTree = "<group>"; };
+		729DD516439790E063036490F772B219 /* Pods-icu4c-test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-icu4c-test_Example-dummy.m"; sourceTree = "<group>"; };
+		72FCB9C3928B1F73624545B5F68930A0 /* icuuc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icuuc.xcframework; path = product/frameworks/icuuc.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76730F33FE898406760B93A41195552F /* coleitr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coleitr.h; path = product/include/unicode/coleitr.h; sourceTree = "<group>"; };
+		779BB6902490A80561AD0111291466E4 /* uobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uobject.h; path = product/include/unicode/uobject.h; sourceTree = "<group>"; };
+		79AE35889B31B57C29FED9751489579A /* icu4c-iosx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-iosx.debug.xcconfig"; sourceTree = "<group>"; };
 		7A7B19FCB8FF0AECDC3560E0E59AC0EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		848B736DE9D3ACA202E2F6E0E886CC2E /* Pods-icu4c-test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-icu4c-test_Example.modulemap"; sourceTree = "<group>"; };
-		8A5EC40C1F99A9F205687F35DFDF4FFD /* Pods-icu4c-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		910C839236989001F7A3CA1BE99EA320 /* Pods-icu4c-test_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-icu4c-test_Example-umbrella.h"; sourceTree = "<group>"; };
+		7F56590C81D11891785FB4CC56C4183C /* gregocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gregocal.h; path = product/include/unicode/gregocal.h; sourceTree = "<group>"; };
+		7F769441DB64E82746B4E46AB11BD27B /* ustring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustring.h; path = product/include/unicode/ustring.h; sourceTree = "<group>"; };
+		7F7B8EC8129380CABCE87F291F975EDC /* Pods-icu4c-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8103E7E4AEDEA4982F5EC81DDB32A502 /* utf32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf32.h; path = product/include/unicode/utf32.h; sourceTree = "<group>"; };
+		818F8E653B1F60ACB6755E18296A08AA /* Pods-icu4c-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		851271C5AA48A0298813ECE92AE0E1E1 /* utrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utrace.h; path = product/include/unicode/utrace.h; sourceTree = "<group>"; };
+		8547CB5DA3A363E2790D680289C3751A /* usearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usearch.h; path = product/include/unicode/usearch.h; sourceTree = "<group>"; };
+		857658D709E2741641F1FE24FE593F82 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = product/include/unicode/platform.h; sourceTree = "<group>"; };
+		858E9359465CBEF3B52DC7D409BBE06C /* urename.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urename.h; path = product/include/unicode/urename.h; sourceTree = "<group>"; };
+		86C5E9D76C578B5C6F8BA20A412DA83D /* nounit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nounit.h; path = product/include/unicode/nounit.h; sourceTree = "<group>"; };
+		8C329AA337D2D5BBF8323CBE64D9CA50 /* ucnv_err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv_err.h; path = product/include/unicode/ucnv_err.h; sourceTree = "<group>"; };
+		8C979CA1A18A00F9B528B5D7AF27AE1F /* Pods-icu4c-test_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-icu4c-test_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D6BC897E06D717E2C8E21F098EDC3E9 /* upluralrules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = upluralrules.h; path = product/include/unicode/upluralrules.h; sourceTree = "<group>"; };
+		918F43CBFE12F9E3CAD603D14E921947 /* dbbi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dbbi.h; path = product/include/unicode/dbbi.h; sourceTree = "<group>"; };
+		91BA0D147EFD9134D360FB9AECC67A6B /* icui18n.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icui18n.xcframework; path = product/frameworks/icui18n.xcframework; sourceTree = "<group>"; };
+		9225461B9E47990926BC9C6E4378202A /* plurfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plurfmt.h; path = product/include/unicode/plurfmt.h; sourceTree = "<group>"; };
+		922D73D9F619A4A48373506A14CF3EED /* enumset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = enumset.h; path = product/include/unicode/enumset.h; sourceTree = "<group>"; };
 		9281C2B697A4FF641125B8CA3C194D55 /* icu4c-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-test.release.xcconfig"; sourceTree = "<group>"; };
-		97BFA3057404EC5939275FD126346B41 /* Pods-icu4c-test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92F27E0E042884A6B3B92705211FF3E9 /* Pods-icu4c-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-icu4c-test_Tests.modulemap"; sourceTree = "<group>"; };
+		96789D2B0933CE04E629F1B4366A896D /* uregion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uregion.h; path = product/include/unicode/uregion.h; sourceTree = "<group>"; };
+		97A121C0ECF2619F713039036BCFC102 /* casemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = casemap.h; path = product/include/unicode/casemap.h; sourceTree = "<group>"; };
+		993B61E593E6880FA5B30294CCAD13E1 /* numberrangeformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numberrangeformatter.h; path = product/include/unicode/numberrangeformatter.h; sourceTree = "<group>"; };
+		99ABE6425D7EC6A1608399F132C42DC8 /* tblcoll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tblcoll.h; path = product/include/unicode/tblcoll.h; sourceTree = "<group>"; };
+		9A786745EAEC36BAC1BDF3AEE12CC596 /* udateintervalformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udateintervalformat.h; path = product/include/unicode/udateintervalformat.h; sourceTree = "<group>"; };
 		9AD64C6236AFACAC62F1A81E6A091353 /* icu4c-test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "icu4c-test.modulemap"; sourceTree = "<group>"; };
+		9BD6F5769D68A6A61D92E86E8FCEF565 /* uniset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uniset.h; path = product/include/unicode/uniset.h; sourceTree = "<group>"; };
+		9D1830B6AA4F2C0DC6EA378F10DCB946 /* simpletz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simpletz.h; path = product/include/unicode/simpletz.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0DF1A299B14B98475B561C502BD272 /* udat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udat.h; path = product/include/unicode/udat.h; sourceTree = "<group>"; };
+		A06D86A7D7F685E354FE0DA503004F65 /* uloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uloc.h; path = product/include/unicode/uloc.h; sourceTree = "<group>"; };
+		A0BF21219F13C45E27B10EB016AB998A /* sortkey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sortkey.h; path = product/include/unicode/sortkey.h; sourceTree = "<group>"; };
+		A2360134169AD522C92944FF208DD36C /* compactdecimalformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = compactdecimalformat.h; path = product/include/unicode/compactdecimalformat.h; sourceTree = "<group>"; };
 		A2D97D936ABA7E1DAC311C603CD3B23F /* icu4c-test.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "icu4c-test.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6C6BD8D72532BA2219D5C1FC1381CA3 /* Pods-icu4c-test_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AEFD4A8ADD9C1A8EC5C8993B1E7AFDE0 /* Pods-icu4c-test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-icu4c-test_Tests.modulemap"; sourceTree = "<group>"; };
+		A3B64BDFDB94A8392A309DDAE5DD4ACD /* search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search.h; path = product/include/unicode/search.h; sourceTree = "<group>"; };
+		A454B813C25F1EFA52B97D6CA9B386F7 /* edits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edits.h; path = product/include/unicode/edits.h; sourceTree = "<group>"; };
+		A4DCA445069BAA6A8011345FE74973CB /* Pods-icu4c-test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-icu4c-test_Example.modulemap"; sourceTree = "<group>"; };
+		A5A5050BF8D4AC05AE7F2DC96C5BF4DE /* Pods-icu4c-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6115EABE2D818DD3D743A03C0A3D4A3 /* utrans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utrans.h; path = product/include/unicode/utrans.h; sourceTree = "<group>"; };
+		A6ED0638EB27970A23E1CB14B6CA65D8 /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format.h; path = product/include/unicode/format.h; sourceTree = "<group>"; };
+		A8B96A87B94E7DE5B05D0B119A0E4393 /* uvernum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uvernum.h; path = product/include/unicode/uvernum.h; sourceTree = "<group>"; };
+		A971E9EEBBE017C6E1EB913360CE27B3 /* alphaindex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alphaindex.h; path = product/include/unicode/alphaindex.h; sourceTree = "<group>"; };
+		ADF34AC0AFE36B7B261A7BEC8477117D /* Pods-icu4c-test_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-icu4c-test_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE3E32E4265B9848A58882E12A5EB415 /* listformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listformatter.h; path = product/include/unicode/listformatter.h; sourceTree = "<group>"; };
+		AEB569B918A27C94CDA7E252C17CE8BD /* dtitvfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtitvfmt.h; path = product/include/unicode/dtitvfmt.h; sourceTree = "<group>"; };
+		AEBDA2C6BB861040FFA288A20DDBA362 /* smpdtfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = smpdtfmt.h; path = product/include/unicode/smpdtfmt.h; sourceTree = "<group>"; };
+		B0F50387413C33FA8BB1B6073403BB8D /* filteredbrk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filteredbrk.h; path = product/include/unicode/filteredbrk.h; sourceTree = "<group>"; };
+		B17EFD2F24344D15086064EBEFF77A91 /* char16ptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char16ptr.h; path = product/include/unicode/char16ptr.h; sourceTree = "<group>"; };
+		B2FCA9F1CE1B674A5139755A618550E4 /* stringtriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringtriebuilder.h; path = product/include/unicode/stringtriebuilder.h; sourceTree = "<group>"; };
+		B32745287C7D74C67CAEFD4262C4A5E0 /* ucal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucal.h; path = product/include/unicode/ucal.h; sourceTree = "<group>"; };
+		B52B863A3731221B7EF6AD488C45DB95 /* icu4c-iosx-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "icu4c-iosx-xcframeworks.sh"; sourceTree = "<group>"; };
 		B5CFFE979801223F656DE8E71C5E6E5D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "icu4c-test/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		B60F44B98EDF1C2535107B817C914EB0 /* chariter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chariter.h; path = product/include/unicode/chariter.h; sourceTree = "<group>"; };
+		B8C96E3C37BA8E3FB44516062BB26188 /* Pods-icu4c-test_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Example-Info.plist"; sourceTree = "<group>"; };
+		B95C773453F8744903CD43334436D95F /* usetiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usetiter.h; path = product/include/unicode/usetiter.h; sourceTree = "<group>"; };
+		B9E387114C2A9F19AABE541D89D3A40D /* udatpg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udatpg.h; path = product/include/unicode/udatpg.h; sourceTree = "<group>"; };
+		BA22085AFC3D022E6E58F9E41EAB7EC9 /* numberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numberformatter.h; path = product/include/unicode/numberformatter.h; sourceTree = "<group>"; };
+		BA796F8D80918027DEC4221B6123BEE7 /* ucoleitr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucoleitr.h; path = product/include/unicode/ucoleitr.h; sourceTree = "<group>"; };
 		BB8675D87AA6ECEC0C970CCFFD7E5D6D /* icu4c-test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "icu4c-test-Info.plist"; sourceTree = "<group>"; };
-		BDD4E5BD8E58B29F6C4C9F5BE3C18BC8 /* Pods-icu4c-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Tests-Info.plist"; sourceTree = "<group>"; };
+		BC5AED5B73D83E7285025C8E57649990 /* dcfmtsym.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dcfmtsym.h; path = product/include/unicode/dcfmtsym.h; sourceTree = "<group>"; };
+		BEA1F81025F623AFED6A06D9594D5501 /* tmutamt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmutamt.h; path = product/include/unicode/tmutamt.h; sourceTree = "<group>"; };
+		BEEE2A38544B85F3E89BA77F73CD1BDE /* ucpmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucpmap.h; path = product/include/unicode/ucpmap.h; sourceTree = "<group>"; };
+		BF7C30CA21C9528041C63362ECDDE4DB /* brkiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brkiter.h; path = product/include/unicode/brkiter.h; sourceTree = "<group>"; };
+		BFE3EA0013932C8366A2C66A6221C590 /* tzfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tzfmt.h; path = product/include/unicode/tzfmt.h; sourceTree = "<group>"; };
+		C17CCC717FAEF2526C3EC121D99255D1 /* plurrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plurrule.h; path = product/include/unicode/plurrule.h; sourceTree = "<group>"; };
 		C1874EF63E5F09CD742CDA2D66D1C997 /* Pods_icu4c_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_icu4c_test_Example.framework; path = "Pods-icu4c-test_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C523E4507B019CA5E8FF2B3F41613BD6 /* Pods-icu4c-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D86000A6951FD518F4A8B30F18257B3C /* Pods-icu4c-test_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-icu4c-test_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E3BE62D84BF96D328D0A4F52705898C1 /* Pods-icu4c-test_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-icu4c-test_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C19EA111EB7AAD658C408FF2481EAED5 /* ulistformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulistformatter.h; path = product/include/unicode/ulistformatter.h; sourceTree = "<group>"; };
+		C201EE91535B8AAF46A4FFE9D93B6A4C /* uregex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uregex.h; path = product/include/unicode/uregex.h; sourceTree = "<group>"; };
+		C246C77B1F31D22AD2D01F2687E04802 /* currpinf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = currpinf.h; path = product/include/unicode/currpinf.h; sourceTree = "<group>"; };
+		C27018E8C05D07A0BE98BD6FDC0F5A8C /* Pods-icu4c-test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-test_Tests-Info.plist"; sourceTree = "<group>"; };
+		C4E434E746963A5AB6CF305DD28C3211 /* utf16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf16.h; path = product/include/unicode/utf16.h; sourceTree = "<group>"; };
+		C5024A178CDF7E19619D7FF9EEDF710C /* uclean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uclean.h; path = product/include/unicode/uclean.h; sourceTree = "<group>"; };
+		C81056E860E3665B4AF4DB0D89182424 /* uversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uversion.h; path = product/include/unicode/uversion.h; sourceTree = "<group>"; };
+		C8ACF9144E1CBA3E61E5BD7367B1F255 /* usprep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usprep.h; path = product/include/unicode/usprep.h; sourceTree = "<group>"; };
+		C9AAEB84ECD1B9E5D94D55E886A4A175 /* stringoptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringoptions.h; path = product/include/unicode/stringoptions.h; sourceTree = "<group>"; };
+		C9E660C82CF6A886804955D807864AAF /* unorm2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unorm2.h; path = product/include/unicode/unorm2.h; sourceTree = "<group>"; };
+		CA1FC70A2AEB35C38BD712BB48446EC1 /* datefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = datefmt.h; path = product/include/unicode/datefmt.h; sourceTree = "<group>"; };
+		CB47354CA27A7BB7CF299C78651BF476 /* ucasemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucasemap.h; path = product/include/unicode/ucasemap.h; sourceTree = "<group>"; };
+		CB4E86495336CF041C19652DF4AF1558 /* ushape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ushape.h; path = product/include/unicode/ushape.h; sourceTree = "<group>"; };
+		CC86163DA7D3EBCC43D092EC9013F05F /* dtintrv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtintrv.h; path = product/include/unicode/dtintrv.h; sourceTree = "<group>"; };
+		CD77C5ACEE4D81F6E72E1187169EC475 /* umutablecptrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umutablecptrie.h; path = product/include/unicode/umutablecptrie.h; sourceTree = "<group>"; };
+		CE6B4FB8FF984528987BBE1F408D7F36 /* Pods-icu4c-test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-test_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D013316C0A9867CED9D30ACE42EB9C6A /* bytestriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestriebuilder.h; path = product/include/unicode/bytestriebuilder.h; sourceTree = "<group>"; };
+		D0C24196FCB71C4643B16BD58993160A /* localematcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localematcher.h; path = product/include/unicode/localematcher.h; sourceTree = "<group>"; };
+		D2038B58E42F11F9C67CC3F9A07EFC34 /* utypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utypes.h; path = product/include/unicode/utypes.h; sourceTree = "<group>"; };
+		D23FFEFF293104BACB6419D5A7856460 /* std_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = std_string.h; path = product/include/unicode/std_string.h; sourceTree = "<group>"; };
+		D3A1F2309D695F917C3818D36D30658B /* unum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unum.h; path = product/include/unicode/unum.h; sourceTree = "<group>"; };
+		D4DFA0BF8CBA52D14B2F4A79DBF109EB /* timezone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timezone.h; path = product/include/unicode/timezone.h; sourceTree = "<group>"; };
+		D52E4E75AAC25A4F36F35B4EF945C38C /* uidna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uidna.h; path = product/include/unicode/uidna.h; sourceTree = "<group>"; };
+		D66EA55E66A0B4C1CD2E8439877B2EF4 /* umsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umsg.h; path = product/include/unicode/umsg.h; sourceTree = "<group>"; };
+		D7354FB7D8346A6B5C92777A34D2C38A /* icu4c-iosx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-iosx.release.xcconfig"; sourceTree = "<group>"; };
+		D90C24318463F3D9E7E36CD2947A21AF /* ucptrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucptrie.h; path = product/include/unicode/ucptrie.h; sourceTree = "<group>"; };
+		D97364D351DCD9B30A7912F1B4412916 /* symtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symtable.h; path = product/include/unicode/symtable.h; sourceTree = "<group>"; };
+		D97E33ED5D9D5CCE525614865577AD19 /* resbund.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resbund.h; path = product/include/unicode/resbund.h; sourceTree = "<group>"; };
+		DB972C0F38C321E7B885FC310EE743BF /* schriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schriter.h; path = product/include/unicode/schriter.h; sourceTree = "<group>"; };
+		DCBCA489595CEA7532A5971527D931A5 /* tznames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tznames.h; path = product/include/unicode/tznames.h; sourceTree = "<group>"; };
+		DD8965DDC640BEA87B41E4CD3133E1DF /* ubiditransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubiditransform.h; path = product/include/unicode/ubiditransform.h; sourceTree = "<group>"; };
+		DF1E88E3E5325AF299AD989475E6B4E8 /* stsearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stsearch.h; path = product/include/unicode/stsearch.h; sourceTree = "<group>"; };
+		E04804F62737B933ACAEC743A3A9C443 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = product/include/unicode/utf8.h; sourceTree = "<group>"; };
+		E2DF0B57E53469F443B49CE00359CE25 /* ucnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv.h; path = product/include/unicode/ucnv.h; sourceTree = "<group>"; };
+		E327FD2439F369E9DE99B82187A53FCE /* unumberrangeformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumberrangeformatter.h; path = product/include/unicode/unumberrangeformatter.h; sourceTree = "<group>"; };
+		E345370649D20362AD7FB817DBFE2FA0 /* uscript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uscript.h; path = product/include/unicode/uscript.h; sourceTree = "<group>"; };
+		E3A5636A41F5621576547D0D9DD89C7E /* locdspnm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = locdspnm.h; path = product/include/unicode/locdspnm.h; sourceTree = "<group>"; };
+		E40C3FB2F50998AECB3B61DAA34E94D2 /* fpositer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpositer.h; path = product/include/unicode/fpositer.h; sourceTree = "<group>"; };
+		E570F3E22AE7787653A3C428690A413F /* urep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urep.h; path = product/include/unicode/urep.h; sourceTree = "<group>"; };
+		E73D7AA294897550FD43A2AC14FE5544 /* uspoof.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uspoof.h; path = product/include/unicode/uspoof.h; sourceTree = "<group>"; };
+		E74CABC25D29797CF2FAF33B01A62EF3 /* selfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = selfmt.h; path = product/include/unicode/selfmt.h; sourceTree = "<group>"; };
+		E817931E6F3956854E49E179014E104B /* regex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regex.h; path = product/include/unicode/regex.h; sourceTree = "<group>"; };
+		E916E77BB6FC101E4ADDB0D6659A4140 /* unimatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unimatch.h; path = product/include/unicode/unimatch.h; sourceTree = "<group>"; };
+		EA4F8896FC1157EBA85F1FC964BA3C64 /* appendable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = appendable.h; path = product/include/unicode/appendable.h; sourceTree = "<group>"; };
+		EC4F27713459E47399E9A585D9170D10 /* uset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uset.h; path = product/include/unicode/uset.h; sourceTree = "<group>"; };
+		ED8A7225103B48D99B1B065E7EF9C2EF /* rep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rep.h; path = product/include/unicode/rep.h; sourceTree = "<group>"; };
+		EE094F30230BF27D2FF10C3A9F579CED /* reldatefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reldatefmt.h; path = product/include/unicode/reldatefmt.h; sourceTree = "<group>"; };
+		EE7FE6E71B1DC8CBEC61B60D787A57E7 /* udisplaycontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udisplaycontext.h; path = product/include/unicode/udisplaycontext.h; sourceTree = "<group>"; };
+		EF7B566C3F9C238AF4A7D02A8E58130A /* fmtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fmtable.h; path = product/include/unicode/fmtable.h; sourceTree = "<group>"; };
+		F05317B2BBCD7B6484B917E94E07565F /* ptypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptypes.h; path = product/include/unicode/ptypes.h; sourceTree = "<group>"; };
+		F18FCEAD1800840CEC0CCAF6DA8317D6 /* uenum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uenum.h; path = product/include/unicode/uenum.h; sourceTree = "<group>"; };
+		F3E789B7A2A413CD6FCCA0E20EEF5035 /* locid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = locid.h; path = product/include/unicode/locid.h; sourceTree = "<group>"; };
+		F6546A19C8F2D0DF61FA257C7CC1F0EA /* calendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calendar.h; path = product/include/unicode/calendar.h; sourceTree = "<group>"; };
+		F66BCE1E55CC1939858BC75872AB87BB /* curramt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curramt.h; path = product/include/unicode/curramt.h; sourceTree = "<group>"; };
+		F7C7D0D4A48DFE7AEA6049BC9ECE67F0 /* dtitvinf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtitvinf.h; path = product/include/unicode/dtitvinf.h; sourceTree = "<group>"; };
+		F8D6487A8AB6164606D210B339A27E04 /* unumsys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumsys.h; path = product/include/unicode/unumsys.h; sourceTree = "<group>"; };
+		FBB5FEB6441CE2802A65660AAD169AEC /* dtptngen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtptngen.h; path = product/include/unicode/dtptngen.h; sourceTree = "<group>"; };
+		FCC46F67F6B05A41654E0BC3C2D9DDE0 /* umachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umachine.h; path = product/include/unicode/umachine.h; sourceTree = "<group>"; };
+		FD82DDE5BBD82DEA2189D9EC561CA3CD /* caniter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = caniter.h; path = product/include/unicode/caniter.h; sourceTree = "<group>"; };
+		FED1E62740D13516ADE169F575C6D978 /* tzrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tzrule.h; path = product/include/unicode/tzrule.h; sourceTree = "<group>"; };
+		FF9F7E83BAACBC0D7EAF7305C2DAB93A /* ucnv_cb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv_cb.h; path = product/include/unicode/ucnv_cb.h; sourceTree = "<group>"; };
+		FFB39B2A428B906458A23D6EF1563F70 /* fieldpos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fieldpos.h; path = product/include/unicode/fieldpos.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		145E53AD2AC33A47A1A1750C608A83C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB8F47A3C6C287F5757F276C40FAFA75 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21914E1D7E5E91796E932469EF18DB5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,11 +302,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97D5B1AD946BEA131C43848DB389E8C0 /* Frameworks */ = {
+		985EDD9450AB915079FBFF6EE48ECF21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F59509C6D057A762E633B2330BBA59 /* Foundation.framework in Frameworks */,
+				00519390D9DD4842859425CDA7BB0975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B2550F0AAB28B712FD8274B9E0039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553E0A9CB52B6F4C5BF19092630BF0AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +331,204 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		04C0DC0EC431FA25D557405E4059640B /* icu4c-iosx */ = {
+			isa = PBXGroup;
+			children = (
+				A971E9EEBBE017C6E1EB913360CE27B3 /* alphaindex.h */,
+				EA4F8896FC1157EBA85F1FC964BA3C64 /* appendable.h */,
+				70E3CA626A92D9FAD34F4A0075353B8A /* basictz.h */,
+				BF7C30CA21C9528041C63362ECDDE4DB /* brkiter.h */,
+				1B60A32D2A6F3C35DD6927ABAD639557 /* bytestream.h */,
+				2EBCB41E6355B42889FD35670E618C1D /* bytestrie.h */,
+				D013316C0A9867CED9D30ACE42EB9C6A /* bytestriebuilder.h */,
+				F6546A19C8F2D0DF61FA257C7CC1F0EA /* calendar.h */,
+				FD82DDE5BBD82DEA2189D9EC561CA3CD /* caniter.h */,
+				97A121C0ECF2619F713039036BCFC102 /* casemap.h */,
+				B17EFD2F24344D15086064EBEFF77A91 /* char16ptr.h */,
+				B60F44B98EDF1C2535107B817C914EB0 /* chariter.h */,
+				56EC2846980BB699F3A029A45C644884 /* choicfmt.h */,
+				76730F33FE898406760B93A41195552F /* coleitr.h */,
+				23B6DEE023BAF79AA7B76620906B73A7 /* coll.h */,
+				A2360134169AD522C92944FF208DD36C /* compactdecimalformat.h */,
+				F66BCE1E55CC1939858BC75872AB87BB /* curramt.h */,
+				C246C77B1F31D22AD2D01F2687E04802 /* currpinf.h */,
+				0186010619BF9A6C3C3A684ECB694DEF /* currunit.h */,
+				CA1FC70A2AEB35C38BD712BB48446EC1 /* datefmt.h */,
+				918F43CBFE12F9E3CAD603D14E921947 /* dbbi.h */,
+				BC5AED5B73D83E7285025C8E57649990 /* dcfmtsym.h */,
+				0B96F0371D2C684650054596E8C60D69 /* decimfmt.h */,
+				54761352F132F7E292F6A7428D69D608 /* docmain.h */,
+				3E22059DE1624876A85F666618D6FBCB /* dtfmtsym.h */,
+				CC86163DA7D3EBCC43D092EC9013F05F /* dtintrv.h */,
+				AEB569B918A27C94CDA7E252C17CE8BD /* dtitvfmt.h */,
+				F7C7D0D4A48DFE7AEA6049BC9ECE67F0 /* dtitvinf.h */,
+				FBB5FEB6441CE2802A65660AAD169AEC /* dtptngen.h */,
+				17820A3F6714902C3CA246FAEB723309 /* dtrule.h */,
+				A454B813C25F1EFA52B97D6CA9B386F7 /* edits.h */,
+				922D73D9F619A4A48373506A14CF3EED /* enumset.h */,
+				551591A8CCA0D0C8466D0EA4119B95D7 /* errorcode.h */,
+				FFB39B2A428B906458A23D6EF1563F70 /* fieldpos.h */,
+				B0F50387413C33FA8BB1B6073403BB8D /* filteredbrk.h */,
+				EF7B566C3F9C238AF4A7D02A8E58130A /* fmtable.h */,
+				A6ED0638EB27970A23E1CB14B6CA65D8 /* format.h */,
+				337EB5BCD4814CAFDBF3508B501CFE7C /* formattedvalue.h */,
+				E40C3FB2F50998AECB3B61DAA34E94D2 /* fpositer.h */,
+				3D05B20CCA141AB7295C10ADEFE8D602 /* gender.h */,
+				7F56590C81D11891785FB4CC56C4183C /* gregocal.h */,
+				01661A23A5FA80781705D905C84B4FFD /* icudataver.h */,
+				3F4D95FC9336347EC2303F4E940AD69E /* icuplug.h */,
+				5E5D115A8379CEDE7869D87E0DAA663B /* idna.h */,
+				AE3E32E4265B9848A58882E12A5EB415 /* listformatter.h */,
+				449F92A872D87AC486FA0BDB5DF3A621 /* localebuilder.h */,
+				D0C24196FCB71C4643B16BD58993160A /* localematcher.h */,
+				4B53E4C17437CA2C84E7B06F701D6D42 /* localpointer.h */,
+				E3A5636A41F5621576547D0D9DD89C7E /* locdspnm.h */,
+				F3E789B7A2A413CD6FCCA0E20EEF5035 /* locid.h */,
+				5B0E8901DAB11C8CBA19C936EDAC897D /* measfmt.h */,
+				13B2430CE7791F01E0FCFF1D676F938E /* measunit.h */,
+				2CD1944077908B6D911AD0C995EF91E4 /* measure.h */,
+				25E70963FE40BCA3168DFE4730400797 /* messagepattern.h */,
+				57E1168AEFDB5B4DF0CA961CDDD20CE9 /* msgfmt.h */,
+				6CF4501416B18869EF6D3EAB2774AC1D /* normalizer2.h */,
+				3042AF33BA6278DEAA2592F17E9D97EB /* normlzr.h */,
+				86C5E9D76C578B5C6F8BA20A412DA83D /* nounit.h */,
+				BA22085AFC3D022E6E58F9E41EAB7EC9 /* numberformatter.h */,
+				993B61E593E6880FA5B30294CCAD13E1 /* numberrangeformatter.h */,
+				728C2EB222CBF36EFF96BEA3B895CDFD /* numfmt.h */,
+				6556D36CD38DC804FF98A2B1E8545E3C /* numsys.h */,
+				3564A0B0C7A1A41A9F381DB16042D8A1 /* parseerr.h */,
+				3D850D5B0EDDD31927469B45FF65C302 /* parsepos.h */,
+				857658D709E2741641F1FE24FE593F82 /* platform.h */,
+				9225461B9E47990926BC9C6E4378202A /* plurfmt.h */,
+				C17CCC717FAEF2526C3EC121D99255D1 /* plurrule.h */,
+				F05317B2BBCD7B6484B917E94E07565F /* ptypes.h */,
+				6A481D25A561CC5D4B7C038B7E23B84D /* putil.h */,
+				44CA5452A547223EF78634FD62ADD91B /* rbbi.h */,
+				603B2AD2982AFD88A33182FF459B2D22 /* rbnf.h */,
+				2630B929FFAAA125E5C71256F4494259 /* rbtz.h */,
+				E817931E6F3956854E49E179014E104B /* regex.h */,
+				39F53FB1FA5654280BCA7E8948BA8A87 /* region.h */,
+				EE094F30230BF27D2FF10C3A9F579CED /* reldatefmt.h */,
+				ED8A7225103B48D99B1B065E7EF9C2EF /* rep.h */,
+				D97E33ED5D9D5CCE525614865577AD19 /* resbund.h */,
+				DB972C0F38C321E7B885FC310EE743BF /* schriter.h */,
+				49D0A4FD631ABAED6F92967C6DE66263 /* scientificnumberformatter.h */,
+				A3B64BDFDB94A8392A309DDAE5DD4ACD /* search.h */,
+				E74CABC25D29797CF2FAF33B01A62EF3 /* selfmt.h */,
+				2E74D92641DA999255247BE691DDEA2B /* simpleformatter.h */,
+				9D1830B6AA4F2C0DC6EA378F10DCB946 /* simpletz.h */,
+				AEBDA2C6BB861040FFA288A20DDBA362 /* smpdtfmt.h */,
+				A0BF21219F13C45E27B10EB016AB998A /* sortkey.h */,
+				D23FFEFF293104BACB6419D5A7856460 /* std_string.h */,
+				47DCC018E2EEF2340F72E868757E162B /* strenum.h */,
+				C9AAEB84ECD1B9E5D94D55E886A4A175 /* stringoptions.h */,
+				4C66C0CAB76F4D1E207A32057902C52F /* stringpiece.h */,
+				B2FCA9F1CE1B674A5139755A618550E4 /* stringtriebuilder.h */,
+				DF1E88E3E5325AF299AD989475E6B4E8 /* stsearch.h */,
+				D97364D351DCD9B30A7912F1B4412916 /* symtable.h */,
+				99ABE6425D7EC6A1608399F132C42DC8 /* tblcoll.h */,
+				D4DFA0BF8CBA52D14B2F4A79DBF109EB /* timezone.h */,
+				62D938E6FE1E2131D3350A268D7B45F7 /* tmunit.h */,
+				BEA1F81025F623AFED6A06D9594D5501 /* tmutamt.h */,
+				40C7FBFCF778F5C4842812713F5893AB /* tmutfmt.h */,
+				03D05EBB52876D56A9F76C11B23C2C17 /* translit.h */,
+				BFE3EA0013932C8366A2C66A6221C590 /* tzfmt.h */,
+				DCBCA489595CEA7532A5971527D931A5 /* tznames.h */,
+				FED1E62740D13516ADE169F575C6D978 /* tzrule.h */,
+				5DFC8523A7998FB247D47FC49DC2A80A /* tztrans.h */,
+				609072B96FD15890811AFB65EE71C5E2 /* ubidi.h */,
+				DD8965DDC640BEA87B41E4CD3133E1DF /* ubiditransform.h */,
+				355454204B76417304B7B079901A89E6 /* ubrk.h */,
+				B32745287C7D74C67CAEFD4262C4A5E0 /* ucal.h */,
+				CB47354CA27A7BB7CF299C78651BF476 /* ucasemap.h */,
+				3E8789B2E754CD8102B757B2964DF8DE /* ucat.h */,
+				1BE31881F6ECFA0CF738CC185E171081 /* uchar.h */,
+				39C50761CA4DE0EB2A73CD25C024BA25 /* ucharstrie.h */,
+				225D154D79BCE4310124CFFB14912D34 /* ucharstriebuilder.h */,
+				1A20F7C55E7E0A5BBA1F8FFE1526A77B /* uchriter.h */,
+				C5024A178CDF7E19619D7FF9EEDF710C /* uclean.h */,
+				E2DF0B57E53469F443B49CE00359CE25 /* ucnv.h */,
+				FF9F7E83BAACBC0D7EAF7305C2DAB93A /* ucnv_cb.h */,
+				8C329AA337D2D5BBF8323CBE64D9CA50 /* ucnv_err.h */,
+				0B663FFD4666BADF6E5C83537DDD681E /* ucnvsel.h */,
+				67D452454812F4F52F040C4D8A9AD44B /* ucol.h */,
+				BA796F8D80918027DEC4221B6123BEE7 /* ucoleitr.h */,
+				148D710EDF67D95B706481EADBFA47AF /* uconfig.h */,
+				BEEE2A38544B85F3E89BA77F73CD1BDE /* ucpmap.h */,
+				D90C24318463F3D9E7E36CD2947A21AF /* ucptrie.h */,
+				6566522B4780D2169C0B5C4051D7BA5E /* ucsdet.h */,
+				5F9C63EE5FA10DA68A5E9D9B846FCE49 /* ucurr.h */,
+				9F0DF1A299B14B98475B561C502BD272 /* udat.h */,
+				21318A1AB23D453EA459E5534928E7BF /* udata.h */,
+				9A786745EAEC36BAC1BDF3AEE12CC596 /* udateintervalformat.h */,
+				B9E387114C2A9F19AABE541D89D3A40D /* udatpg.h */,
+				EE7FE6E71B1DC8CBEC61B60D787A57E7 /* udisplaycontext.h */,
+				F18FCEAD1800840CEC0CCAF6DA8317D6 /* uenum.h */,
+				0959EDFD636D85E87376956C42FAE233 /* ufieldpositer.h */,
+				30881C9C4A806D797767DF9BFF00EEFE /* uformattable.h */,
+				1C1CF8EE21767A00D6C2F5F5ABDA1D36 /* uformattedvalue.h */,
+				48E4AFBC2B31E0527D9EBEECB4F9F548 /* ugender.h */,
+				D52E4E75AAC25A4F36F35B4EF945C38C /* uidna.h */,
+				0F64636A47B7EB1FDF82F4E9F5896F45 /* uiter.h */,
+				32AA742A42416EDF6A9B2A754B159376 /* uldnames.h */,
+				C19EA111EB7AAD658C408FF2481EAED5 /* ulistformatter.h */,
+				A06D86A7D7F685E354FE0DA503004F65 /* uloc.h */,
+				3D4B028DC779ECFA10DEB50914B8F739 /* ulocdata.h */,
+				FCC46F67F6B05A41654E0BC3C2D9DDE0 /* umachine.h */,
+				10F85BFC2882538491EC066909ADA839 /* umisc.h */,
+				D66EA55E66A0B4C1CD2E8439877B2EF4 /* umsg.h */,
+				CD77C5ACEE4D81F6E72E1187169EC475 /* umutablecptrie.h */,
+				5A674056DA59E1D4E818632551FE75F0 /* unifilt.h */,
+				3F7F717431F726FA67CE30F0BD16ECDB /* unifunct.h */,
+				E916E77BB6FC101E4ADDB0D6659A4140 /* unimatch.h */,
+				5DAD19503D9ACCFD6C16A75FC0347FEE /* unirepl.h */,
+				9BD6F5769D68A6A61D92E86E8FCEF565 /* uniset.h */,
+				344FCCD5B5AA8B17324D88265A7D39C3 /* unistr.h */,
+				05F0B20953BA1E92F2A86F98A8F54EE3 /* unorm.h */,
+				C9E660C82CF6A886804955D807864AAF /* unorm2.h */,
+				D3A1F2309D695F917C3818D36D30658B /* unum.h */,
+				4A3A327ED11A61E5183BDA4C6E8FAD17 /* unumberformatter.h */,
+				E327FD2439F369E9DE99B82187A53FCE /* unumberrangeformatter.h */,
+				F8D6487A8AB6164606D210B339A27E04 /* unumsys.h */,
+				779BB6902490A80561AD0111291466E4 /* uobject.h */,
+				8D6BC897E06D717E2C8E21F098EDC3E9 /* upluralrules.h */,
+				C201EE91535B8AAF46A4FFE9D93B6A4C /* uregex.h */,
+				96789D2B0933CE04E629F1B4366A896D /* uregion.h */,
+				24D6D1A2564447A5E7734786452D9FD6 /* ureldatefmt.h */,
+				858E9359465CBEF3B52DC7D409BBE06C /* urename.h */,
+				E570F3E22AE7787653A3C428690A413F /* urep.h */,
+				610D6F9526F8E92B37C443D6540D86AB /* ures.h */,
+				E345370649D20362AD7FB817DBFE2FA0 /* uscript.h */,
+				8547CB5DA3A363E2790D680289C3751A /* usearch.h */,
+				EC4F27713459E47399E9A585D9170D10 /* uset.h */,
+				B95C773453F8744903CD43334436D95F /* usetiter.h */,
+				CB4E86495336CF041C19652DF4AF1558 /* ushape.h */,
+				E73D7AA294897550FD43A2AC14FE5544 /* uspoof.h */,
+				C8ACF9144E1CBA3E61E5BD7367B1F255 /* usprep.h */,
+				47E6CC985EC8BC79E523FE0385E799B4 /* ustdio.h */,
+				17B735674377079659D0BB74170CA154 /* ustream.h */,
+				7F769441DB64E82746B4E46AB11BD27B /* ustring.h */,
+				2D98BFE4F105BBBE90A9FE612A11F68C /* ustringtrie.h */,
+				4AB72E92D70EF69EBC41426B1C9CAC7B /* utext.h */,
+				53745FA08903AA0CFE5424C10953B937 /* utf.h */,
+				C4E434E746963A5AB6CF305DD28C3211 /* utf16.h */,
+				8103E7E4AEDEA4982F5EC81DDB32A502 /* utf32.h */,
+				E04804F62737B933ACAEC743A3A9C443 /* utf8.h */,
+				6D927419C6A1B1412BE819D1480B62AE /* utf_old.h */,
+				6DED39236B2910E4765CAFA49C1350D1 /* utmscale.h */,
+				851271C5AA48A0298813ECE92AE0E1E1 /* utrace.h */,
+				A6115EABE2D818DD3D743A03C0A3D4A3 /* utrans.h */,
+				D2038B58E42F11F9C67CC3F9A07EFC34 /* utypes.h */,
+				A8B96A87B94E7DE5B05D0B119A0E4393 /* uvernum.h */,
+				C81056E860E3665B4AF4DB0D89182424 /* uversion.h */,
+				1276E44E4B3E1673FB872D6B6AEF342B /* vtzone.h */,
+				C4EB2E2BE257F0B068190EA28F1C1CBD /* Frameworks */,
+				64AD83F41E8716E79E195493FD6F3BC4 /* Support Files */,
+			);
+			name = "icu4c-iosx";
+			path = "icu4c-iosx";
+			sourceTree = "<group>";
+		};
 		0C28B4266B9BEFA9ACDE3BDF49CFAACC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,18 +537,41 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4E8424D2A71487361C856D26784A9A6B /* Pods-icu4c-test_Example */ = {
+		18B7C727C9C74720F0BAAB39787CA3AC /* Pods-icu4c-test_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				848B736DE9D3ACA202E2F6E0E886CC2E /* Pods-icu4c-test_Example.modulemap */,
-				E3BE62D84BF96D328D0A4F52705898C1 /* Pods-icu4c-test_Example-acknowledgements.markdown */,
-				97BFA3057404EC5939275FD126346B41 /* Pods-icu4c-test_Example-acknowledgements.plist */,
-				6287F03C881B95596DEF9F82EE9EAD7E /* Pods-icu4c-test_Example-dummy.m */,
-				D86000A6951FD518F4A8B30F18257B3C /* Pods-icu4c-test_Example-frameworks.sh */,
-				4A97B36ABBBEE212F4328471901096AD /* Pods-icu4c-test_Example-Info.plist */,
-				910C839236989001F7A3CA1BE99EA320 /* Pods-icu4c-test_Example-umbrella.h */,
-				32A2E1071FFBED720844F3DC1F63880D /* Pods-icu4c-test_Example.debug.xcconfig */,
-				531602E1A0BE481275B5B074BE57E89E /* Pods-icu4c-test_Example.release.xcconfig */,
+				92F27E0E042884A6B3B92705211FF3E9 /* Pods-icu4c-test_Tests.modulemap */,
+				8C979CA1A18A00F9B528B5D7AF27AE1F /* Pods-icu4c-test_Tests-acknowledgements.markdown */,
+				2E3A2B0B05B50EA1CFB22829F9995761 /* Pods-icu4c-test_Tests-acknowledgements.plist */,
+				ADF34AC0AFE36B7B261A7BEC8477117D /* Pods-icu4c-test_Tests-dummy.m */,
+				C27018E8C05D07A0BE98BD6FDC0F5A8C /* Pods-icu4c-test_Tests-Info.plist */,
+				125C95D99B3AA4F78E140453C50FD9FF /* Pods-icu4c-test_Tests-umbrella.h */,
+				818F8E653B1F60ACB6755E18296A08AA /* Pods-icu4c-test_Tests.debug.xcconfig */,
+				7F7B8EC8129380CABCE87F291F975EDC /* Pods-icu4c-test_Tests.release.xcconfig */,
+			);
+			name = "Pods-icu4c-test_Tests";
+			path = "Target Support Files/Pods-icu4c-test_Tests";
+			sourceTree = "<group>";
+		};
+		3C6B2D943CD013D98CD16592692CD362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C0DC0EC431FA25D557405E4059640B /* icu4c-iosx */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40498027447F3ECBC1E8749DDB17D20F /* Pods-icu4c-test_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCA445069BAA6A8011345FE74973CB /* Pods-icu4c-test_Example.modulemap */,
+				38A5B7FA5F0C03FDE8880580CAAFDE02 /* Pods-icu4c-test_Example-acknowledgements.markdown */,
+				00ABA58229EC2CB28D43AC9E4F3BCCA7 /* Pods-icu4c-test_Example-acknowledgements.plist */,
+				729DD516439790E063036490F772B219 /* Pods-icu4c-test_Example-dummy.m */,
+				B8C96E3C37BA8E3FB44516062BB26188 /* Pods-icu4c-test_Example-Info.plist */,
+				1D24974EB0FE1EEA45DA971532AE1048 /* Pods-icu4c-test_Example-umbrella.h */,
+				CE6B4FB8FF984528987BBE1F408D7F36 /* Pods-icu4c-test_Example.debug.xcconfig */,
+				A5A5050BF8D4AC05AE7F2DC96C5BF4DE /* Pods-icu4c-test_Example.release.xcconfig */,
 			);
 			name = "Pods-icu4c-test_Example";
 			path = "Target Support Files/Pods-icu4c-test_Example";
@@ -158,6 +600,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		64AD83F41E8716E79E195493FD6F3BC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B52B863A3731221B7EF6AD488C45DB95 /* icu4c-iosx-xcframeworks.sh */,
+				79AE35889B31B57C29FED9751489579A /* icu4c-iosx.debug.xcconfig */,
+				D7354FB7D8346A6B5C92777A34D2C38A /* icu4c-iosx.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/icu4c-iosx";
+			sourceTree = "<group>";
+		};
+		78570624115170FF1F5FEAF2DEF33F2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40498027447F3ECBC1E8749DDB17D20F /* Pods-icu4c-test_Example */,
+				18B7C727C9C74720F0BAAB39787CA3AC /* Pods-icu4c-test_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		81D01001EA20331518BEE7006CD057D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,20 +641,15 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A47933197AC86917D0560F9A6C7A6E46 /* Pods-icu4c-test_Tests */ = {
+		C4EB2E2BE257F0B068190EA28F1C1CBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEFD4A8ADD9C1A8EC5C8993B1E7AFDE0 /* Pods-icu4c-test_Tests.modulemap */,
-				53B22B6F1650D3A2B29993BE0BAA36E7 /* Pods-icu4c-test_Tests-acknowledgements.markdown */,
-				A6C6BD8D72532BA2219D5C1FC1381CA3 /* Pods-icu4c-test_Tests-acknowledgements.plist */,
-				5DD77101EC2DB4E57695F668E0A6E1D2 /* Pods-icu4c-test_Tests-dummy.m */,
-				BDD4E5BD8E58B29F6C4C9F5BE3C18BC8 /* Pods-icu4c-test_Tests-Info.plist */,
-				1BDD7ADA961CD12FB5593475E248CB46 /* Pods-icu4c-test_Tests-umbrella.h */,
-				8A5EC40C1F99A9F205687F35DFDF4FFD /* Pods-icu4c-test_Tests.debug.xcconfig */,
-				C523E4507B019CA5E8FF2B3F41613BD6 /* Pods-icu4c-test_Tests.release.xcconfig */,
+				5C9318E95C5983A5CFC959CEA1F5B2FE /* icudata.xcframework */,
+				91BA0D147EFD9134D360FB9AECC67A6B /* icui18n.xcframework */,
+				528DADBC9340EE4A6136A794AACABA41 /* icuio.xcframework */,
+				72FCB9C3928B1F73624545B5F68930A0 /* icuuc.xcframework */,
 			);
-			name = "Pods-icu4c-test_Tests";
-			path = "Target Support Files/Pods-icu4c-test_Tests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -201,8 +658,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0C28B4266B9BEFA9ACDE3BDF49CFAACC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C6B2D943CD013D98CD16592692CD362 /* Pods */,
 				81D01001EA20331518BEE7006CD057D5 /* Products */,
-				FAB04F96346F827844CD31119EA4309F /* Targets Support Files */,
+				78570624115170FF1F5FEAF2DEF33F2C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,23 +672,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAB04F96346F827844CD31119EA4309F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E8424D2A71487361C856D26784A9A6B /* Pods-icu4c-test_Example */,
-				A47933197AC86917D0560F9A6C7A6E46 /* Pods-icu4c-test_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17142C69FC358BEC5E424788213EDE9C /* Headers */ = {
+		1FE16DEBE538E049C59F790E6BE1C55F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B84F01E2CFEFD281EDAC4D27BA9614 /* icu4c-test-umbrella.h in Headers */,
+				F8EBDECBA6428165910CB04A5F58B86B /* Pods-icu4c-test_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,11 +691,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB55CF080145CF2DC9D5674D5679F378 /* Headers */ = {
+		F5345A31CA1B2AD870ADD6A4B4F8DD63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B1A64C3795AAF34B56FB85AEC03D91 /* Pods-icu4c-test_Example-umbrella.h in Headers */,
+				69971034A1A93598E5F8EC07ECAA062B /* icu4c-test-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +714,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EABDB6A514CD4A3CB295FC7E8B60AEA1 /* PBXTargetDependency */,
+				41117C3CBA497C63B64399F49BF87E88 /* PBXTargetDependency */,
 			);
 			name = "Pods-icu4c-test_Tests";
 			productName = "Pods-icu4c-test_Tests";
@@ -274,16 +723,17 @@
 		};
 		7804ABC9BFA0999D4A7EC88DC1133FA0 /* icu4c-test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBFBAF16DD6DC4FA8CB8A9E9DCB14405 /* Build configuration list for PBXNativeTarget "icu4c-test" */;
+			buildConfigurationList = 80AEA46EDF5A21D008FA54915E9DA4F6 /* Build configuration list for PBXNativeTarget "icu4c-test" */;
 			buildPhases = (
-				17142C69FC358BEC5E424788213EDE9C /* Headers */,
-				95CF0E4ED0219CC482181B6D88723979 /* Sources */,
-				97D5B1AD946BEA131C43848DB389E8C0 /* Frameworks */,
-				D836B788675C360590422086527EF902 /* Resources */,
+				F5345A31CA1B2AD870ADD6A4B4F8DD63 /* Headers */,
+				CC6FBF874EA485298403961F553B1ADB /* Sources */,
+				985EDD9450AB915079FBFF6EE48ECF21 /* Frameworks */,
+				0B21ECB3497A71CDA59F6E389F63B38F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B79F2A1E93C4BE40694C6021E4792FD /* PBXTargetDependency */,
 			);
 			name = "icu4c-test";
 			productName = "icu4c-test";
@@ -292,17 +742,18 @@
 		};
 		A1B83669262D71A188759EBF741176C3 /* Pods-icu4c-test_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6798D9C934304F607252B592E036B60D /* Build configuration list for PBXNativeTarget "Pods-icu4c-test_Example" */;
+			buildConfigurationList = BEE418A8ADBCAF6DD5EA2081521E22CD /* Build configuration list for PBXNativeTarget "Pods-icu4c-test_Example" */;
 			buildPhases = (
-				DB55CF080145CF2DC9D5674D5679F378 /* Headers */,
-				F59990855DAC0FCE8234222D738386AF /* Sources */,
-				145E53AD2AC33A47A1A1750C608A83C3 /* Frameworks */,
-				A2FCB740BCD841608875AE99757D735A /* Resources */,
+				1FE16DEBE538E049C59F790E6BE1C55F /* Headers */,
+				A824F52889EFF51ABB8FAF63FE4F16B6 /* Sources */,
+				CE5B2550F0AAB28B712FD8274B9E0039 /* Frameworks */,
+				AED679664CB8DF73C18462A083DF6097 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD9C9565BF4B92CDAEADB3DB0A685C76 /* PBXTargetDependency */,
+				1AB783EC8974ABE510DD6D8ECABE9AEF /* PBXTargetDependency */,
+				FAECDAC412C5CE68BA2191A2F7C74447 /* PBXTargetDependency */,
 			);
 			name = "Pods-icu4c-test_Example";
 			productName = "Pods-icu4c-test_Example";
@@ -331,6 +782,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */,
 				7804ABC9BFA0999D4A7EC88DC1133FA0 /* icu4c-test */,
 				A1B83669262D71A188759EBF741176C3 /* Pods-icu4c-test_Example */,
 				18325C4951D92FCB2008224D782B1A86 /* Pods-icu4c-test_Tests */,
@@ -339,6 +791,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0B21ECB3497A71CDA59F6E389F63B38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F2B91E06C764B2F07A594C9039BB488 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,14 +805,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2FCB740BCD841608875AE99757D735A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D836B788675C360590422086527EF902 /* Resources */ = {
+		AED679664CB8DF73C18462A083DF6097 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +813,33 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC0D92D8BA9284C20E59E4A365F19199 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks.sh",
+				"${PODS_ROOT}/icu4c-iosx/product/frameworks/icudata.xcframework",
+				"${PODS_ROOT}/icu4c-iosx/product/frameworks/icui18n.xcframework",
+				"${PODS_ROOT}/icu4c-iosx/product/frameworks/icuio.xcframework",
+				"${PODS_ROOT}/icu4c-iosx/product/frameworks/icuuc.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/icudata",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/icui18n",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/icuio",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/icuuc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25CC9AF8B5E50BEE690237D3D39C9D4F /* Sources */ = {
@@ -371,46 +850,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95CF0E4ED0219CC482181B6D88723979 /* Sources */ = {
+		A824F52889EFF51ABB8FAF63FE4F16B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4335393DE5980A166EC0F4618B40CF67 /* icu4c-test-dummy.m in Sources */,
-				5E717303CE0E0AB23B05D1B859A26DC7 /* ReplaceMe.swift in Sources */,
+				6ACC4D9EE648DCD253CC590DA7CEF3E7 /* Pods-icu4c-test_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59990855DAC0FCE8234222D738386AF /* Sources */ = {
+		CC6FBF874EA485298403961F553B1ADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884C63EFE79839395B4A79EB7ACCF0DF /* Pods-icu4c-test_Example-dummy.m in Sources */,
+				11E4CA8636C90CFD96EF6C47661F5098 /* icu4c-test-dummy.m in Sources */,
+				B790BD3BD11F17FE1B374046F91F42AC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD9C9565BF4B92CDAEADB3DB0A685C76 /* PBXTargetDependency */ = {
+		1AB783EC8974ABE510DD6D8ECABE9AEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "icu4c-test";
-			target = 7804ABC9BFA0999D4A7EC88DC1133FA0 /* icu4c-test */;
-			targetProxy = 8C8DF77845C4C6D9FE9818D7E41241A1 /* PBXContainerItemProxy */;
+			name = "icu4c-iosx";
+			target = 631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */;
+			targetProxy = C7960809F6658476024E243A522D3D83 /* PBXContainerItemProxy */;
 		};
-		EABDB6A514CD4A3CB295FC7E8B60AEA1 /* PBXTargetDependency */ = {
+		41117C3CBA497C63B64399F49BF87E88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-icu4c-test_Example";
 			target = A1B83669262D71A188759EBF741176C3 /* Pods-icu4c-test_Example */;
-			targetProxy = 977D612A904A4F3CB377EDFDE412DC9C /* PBXContainerItemProxy */;
+			targetProxy = 6A546DFD1FBEF907FC37FFB82B29C5CC /* PBXContainerItemProxy */;
+		};
+		5B79F2A1E93C4BE40694C6021E4792FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "icu4c-iosx";
+			target = 631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */;
+			targetProxy = 3373959A510EDEB7846DC6A8DADC1842 /* PBXContainerItemProxy */;
+		};
+		FAECDAC412C5CE68BA2191A2F7C74447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "icu4c-test";
+			target = 7804ABC9BFA0999D4A7EC88DC1133FA0 /* icu4c-test */;
+			targetProxy = 171390C515A37F4283E4CEDC326392B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1FF66F89EF928C254FD9046C55A312A6 /* Debug */ = {
+		102DF4F5DC1802CEDA0EC7C0F8DD2771 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A2E1071FFBED720844F3DC1F63880D /* Pods-icu4c-test_Example.debug.xcconfig */;
+			baseConfigurationReference = 488E65323BAC25A46FC0A9E588F1F664 /* icu4c-test.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -419,26 +911,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/icu4c-test/icu4c-test-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/icu4c-test/icu4c-test-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/icu4c-test/icu4c-test.modulemap";
+				PRODUCT_MODULE_NAME = icu4c_test;
+				PRODUCT_NAME = icu4c_test;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -491,7 +983,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -504,135 +996,7 @@
 			};
 			name = Debug;
 		};
-		4276F3B7082CF0E5CE6B059325676632 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488E65323BAC25A46FC0A9E588F1F664 /* icu4c-test.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/icu4c-test/icu4c-test-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/icu4c-test/icu4c-test-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/icu4c-test/icu4c-test.modulemap";
-				PRODUCT_MODULE_NAME = icu4c_test;
-				PRODUCT_NAME = icu4c_test;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4F4BC1904E6D097D8FF94008DD28F693 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 531602E1A0BE481275B5B074BE57E89E /* Pods-icu4c-test_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA7C1B96EA196D015FB33997B27D17F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C523E4507B019CA5E8FF2B3F41613BD6 /* Pods-icu4c-test_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD3A7FB76722ACF786ABC4CE5CBAD28C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A5EC40C1F99A9F205687F35DFDF4FFD /* Pods-icu4c-test_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -682,7 +1046,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -694,10 +1058,181 @@
 			};
 			name = Release;
 		};
-		D637F404A50C70B284FFD57559596B6C /* Release */ = {
+		A1186C5AFF4E670D59155734A6CF9AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AE35889B31B57C29FED9751489579A /* icu4c-iosx.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7715A46E767119F368FBE2A07972B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7B8EC8129380CABCE87F291F975EDC /* Pods-icu4c-test_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C49EC666BE472CA782D4A251ACDB6878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7354FB7D8346A6B5C92777A34D2C38A /* icu4c-iosx.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E134D0A1451CA382A207517CC0DDF8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6B4FB8FF984528987BBE1F408D7F36 /* Pods-icu4c-test_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA206919C23D812042F27DB9CA828007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A5050BF8D4AC05AE7F2DC96C5BF4DE /* Pods-icu4c-test_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3A31BA1BFFB35FD7260D526152FDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818F8E653B1F60ACB6755E18296A08AA /* Pods-icu4c-test_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD1C11F15A61D819848E2E83EA6C2F0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9281C2B697A4FF641125B8CA3C194D55 /* icu4c-test.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,8 +1244,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/icu4c-test/icu4c-test-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/icu4c-test/icu4c-test-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/icu4c-test/icu4c-test.modulemap";
 				PRODUCT_MODULE_NAME = icu4c_test;
 				PRODUCT_NAME = icu4c_test;
@@ -731,8 +1267,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,26 +1276,35 @@
 		4AA1934DCF3BAF175227741CA0DA9434 /* Build configuration list for PBXNativeTarget "Pods-icu4c-test_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD3A7FB76722ACF786ABC4CE5CBAD28C /* Debug */,
-				AA7C1B96EA196D015FB33997B27D17F8 /* Release */,
+				FC3A31BA1BFFB35FD7260D526152FDD2 /* Debug */,
+				B7715A46E767119F368FBE2A07972B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6798D9C934304F607252B592E036B60D /* Build configuration list for PBXNativeTarget "Pods-icu4c-test_Example" */ = {
+		80AEA46EDF5A21D008FA54915E9DA4F6 /* Build configuration list for PBXNativeTarget "icu4c-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FF66F89EF928C254FD9046C55A312A6 /* Debug */,
-				4F4BC1904E6D097D8FF94008DD28F693 /* Release */,
+				102DF4F5DC1802CEDA0EC7C0F8DD2771 /* Debug */,
+				FD1C11F15A61D819848E2E83EA6C2F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBFBAF16DD6DC4FA8CB8A9E9DCB14405 /* Build configuration list for PBXNativeTarget "icu4c-test" */ = {
+		AF1B6D8B6316E2ED9C0D5A84C0CD0AAB /* Build configuration list for PBXAggregateTarget "icu4c-iosx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4276F3B7082CF0E5CE6B059325676632 /* Debug */,
-				D637F404A50C70B284FFD57559596B6C /* Release */,
+				A1186C5AFF4E670D59155734A6CF9AF8 /* Debug */,
+				C49EC666BE472CA782D4A251ACDB6878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE418A8ADBCAF6DD5EA2081521E22CD /* Build configuration list for PBXNativeTarget "Pods-icu4c-test_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E134D0A1451CA382A207517CC0DDF8C9 /* Debug */,
+				FA206919C23D812042F27DB9CA828007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

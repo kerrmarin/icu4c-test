@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0398311BA765B51A2744B554 /* Pods-icu4c-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icu4c-test_Tests.debug.xcconfig"; path = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1197A9CF7F4920E34BBD30AE /* Pods-icu4c-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icu4c-test_Tests.release.xcconfig"; path = "Target Support Files/Pods-icu4c-test_Tests/Pods-icu4c-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		250E1E86E77F133571E06231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		250E1E86E77F133571E06231 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		46CCBCDAFBA4022F9BED9D4E /* Pods-icu4c-test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icu4c-test_Example.debug.xcconfig"; path = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* icu4c-test_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "icu4c-test_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82CFA5FA4AD903BAE64E9611 /* Pods-icu4c-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icu4c-test_Example.release.xcconfig"; path = "Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example.release.xcconfig"; sourceTree = "<group>"; };
-		99B347486DFBB94AF14177FB /* icu4c-test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "icu4c-test.podspec"; path = "../icu4c-test.podspec"; sourceTree = "<group>"; };
+		99B347486DFBB94AF14177FB /* icu4c-test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "icu4c-test.podspec"; path = "../icu4c-test.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C04660D8BDD1B6F3E3E4062 /* Pods_icu4c_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icu4c_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC147FE23ED7D74DDC3149D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AC147FE23ED7D74DDC3149D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B546E834E77915EE75EF2319 /* Pods_icu4c_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icu4c_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				0398311BA765B51A2744B554 /* Pods-icu4c-test_Tests.debug.xcconfig */,
 				1197A9CF7F4920E34BBD30AE /* Pods-icu4c-test_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				F5282D80E162E0D0328B4DDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,24 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5282D80E162E0D0328B4DDB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/icu4c-test/icu4c_test.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/icu4c_test.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-icu4c-test_Example/Pods-icu4c-test_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,16 +1,23 @@
 PODS:
-  - icu4c-test (0.1.0)
+  - icu4c-iosx (68)
+  - icu4c-test (0.1.0):
+    - icu4c-iosx
 
 DEPENDENCIES:
   - icu4c-test (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - icu4c-iosx
 
 EXTERNAL SOURCES:
   icu4c-test:
     :path: "../"
 
 SPEC CHECKSUMS:
-  icu4c-test: 1efdb18b297758b7e0ab2880d9110cc59d8e0fcd
+  icu4c-iosx: 8786f3dcfae86a7a98768fe9723e9b680c8fe844
+  icu4c-test: 9a0b81bf257490b23b6ce5f49e01453336ee4d02
 
-PODFILE CHECKSUM: 641adbe902d67a514176366fdb32f74ae6ff2054
+PODFILE CHECKSUM: 39a7fb73d50eb79861eb2718bbb417b18e0d95f7
 
 COCOAPODS: 1.10.1
