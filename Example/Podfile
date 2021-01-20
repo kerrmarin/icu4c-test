@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'icu4c-test_Example' do
+  pod 'icu4c-test', :path => '../'
+
+  target 'icu4c-test_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
